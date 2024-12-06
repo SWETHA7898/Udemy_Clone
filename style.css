@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Gabarito',sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+.nav__title h1{
+    color: #8710d8;
+}
+.nav__title{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__search{
+    
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.nav__search input{
+    border:none;
+    font-size: 16px;
+    width: 100%;
+}
+.nav__search input:focus{
+outline: none;
+}
+.nav__options{
+    display:flex;
+
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    padding: 10px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.categories p{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #8710d8;
+    color: white;
+
+}
+.section img{
+    width: 100%;
+}
+
+
+.recommdended{
+    padding: 20px;
+   
+    
+}
+.recommdended h2{
+    margin-top: 10px;
+}
+.container__box {
+    width: 250px;  
+}
+.container__box img{
+    width: 100%;
+    height: 50%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+    margin-top: 10px;
+}
+.topics{
+    padding: 20px;
+
+}
+.topics__one{
+    display: flex ;
+    margin-top: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.topics__one p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    text-align: center;
+}
+.popular{
+    padding: 20px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.footer{
+    padding: 30px;
+    background-color:black;
+    color: white;
+    
+    
+}
+
+.footer__one{
+    display: flex;
+    gap: 30px;
+
+}
+.footer__one p{
+    margin-top: 10px;
+}
+.footer__s3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
