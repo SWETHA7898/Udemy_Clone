@@ -49,6 +49,25 @@ outline: none;
     gap: 10px;
     align-items: center;
 }
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+.mylearning__pop{
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    right: 0;
+    top: 150%;
+    width: 100px;
+    display: none;
+}
+.mylearning:hover .mylearning__pop{
+    display: block;
+}
+
+
 .categories{
     padding: 10px;
     border-bottom: solid black 1px;
