@@ -89,6 +89,9 @@ outline: none;
     color: white;
 
 }
+.section {
+    position: relative;
+}
 .section img{
     width: 100%;
 }
