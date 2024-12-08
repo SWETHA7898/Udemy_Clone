@@ -12,6 +12,10 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: solid black 1px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 .nav__title h1{
     color: #8710d8;
@@ -33,6 +37,7 @@ body{
     display: flex;
     gap: 10px;
     align-items: center;
+    background-color: transparent;
     
 }
 .nav__search input{
