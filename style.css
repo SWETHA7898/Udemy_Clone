@@ -85,7 +85,15 @@ outline: none;
     border-radius: 20px;
     background-color: #8710d8;
     color: white;
+    border: solid #8710d8 1px;
+    cursor: pointer;
 
+}
+.categories p:hover{
+    transition: 1s;
+    background-color: transparent;
+    border: solid #8710d8 1px;
+    color: black;
 }
 .section{
     position: relative;
@@ -101,6 +109,20 @@ outline: none;
     position: absolute;
     top: 10%;
     left: 10%;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode:forwards;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .recommdended{
